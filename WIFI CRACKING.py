@@ -1,13 +1,14 @@
 
-from tkinter import *
-from tkinter import ttk
-import pywifi
+
 from pywifi import const
 import time
 import tkinter.filedialog  #
 import tkinter.messagebox  #
-import math
+
 import random
+from tkinter import *
+from tkinter import ttk
+import pywifi
 
 class MY_GUI():
     def __init__(self, init_window_name):
